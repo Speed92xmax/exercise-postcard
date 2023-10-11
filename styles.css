@@ -1,0 +1,64 @@
+/* ESTILOS GENERALES DE LA POSTAL*/
+
+* {
+	min-height: 10px;
+}
+
+body {
+	background: rgb(14, 14, 14);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	background-color: gray;
+	padding: 0.5rem;
+	border-radius: 1px;
+}
+
+/* CABECERA DE LA POSTAL*/
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	border-radius: 8px;
+	padding: 1rem;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	height: 50px;
+	width: 50px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+}
+
+/* CUERPO DE LA POSTAL*/
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 0.3rem;
+}
+
+/* FOOTER DE LA POSTAL*/
+
+.postcard-footer {
+	text-align: center;
+}
